@@ -2,7 +2,7 @@
 
 This project is a backend application built with Node.js, Express, and SQLite. It provides a dashboard with multiple modules such as Dashboard, Analytics, Leads, Sales, Content, and Settings. The application uses JWT authentication to protect routes, with role-based access (admin/user).
 
-1.Tech Stack
+1.Tech Stack                                                                               
 
 Node.js (JavaScript runtime)
 
@@ -16,11 +16,13 @@ dotenv (for managing environment variables)
 
 Setup and Installation
 
+
 2. Clone the Repository
 
 Start by cloning the repository to your local machine:
 
 git clone https://github.com/Keerthi1974-Dev/backend-Intern-Assignment.git
+
 
 3. Install Dependencies
 
@@ -28,6 +30,7 @@ After cloning the project, navigate to the project directory and install the nec
 
 cd backend-Intern-Assignment
 npm install
+
 
 4. Environment Variables
 
@@ -38,6 +41,7 @@ JWT_SECRET=your_jwt_secret_key
 
 
 This file will store sensitive keys like your JWT secret.
+
 
 5. Initialize the Database
 
@@ -217,42 +221,18 @@ Response:
   { "id": 1, "name": "theme", "value": "dark" }
 ]
 
-Folder Structure
-/src
-  /auth
-    auth.controller.js
-    auth.routes.js
-  /dashboard
-    dashboard.controller.js
-    dashboard.routes.js
-  /analytics
-    analytics.controller.js
-    analytics.routes.js
-  /leads
-    leads.controller.js
-    leads.routes.js
-  /sales
-    sales.controller.js
-    sales.routes.js
-  /content
-    content.controller.js
-    content.routes.js
-  /settings
-    settings.controller.js
-    settings.routes.js
-  /db
-    database.js
-    init.js
-  /middlewares
-    auth.middleware.js
-  app.js
-  package.json
-
-  **API TESTING**
+   **API TESTING**
   <img width="1853" height="890" alt="image" src="https://github.com/user-attachments/assets/901a920a-3060-4913-aec7-562e0fa8bf45" />
 
   **DOCKER SETUP**
   <img width="1884" height="852" alt="image" src="https://github.com/user-attachments/assets/e0626e06-18d0-4a7c-975e-b8f3cb989014" />
+  
+
+  
+
+  
+
+
 
 
 
